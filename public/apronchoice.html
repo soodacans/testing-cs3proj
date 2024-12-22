@@ -13,17 +13,53 @@
 </head>
   
 <body>
-    <div class="apron-selection">
-        <button onclick="selectApron('apron1')">
-            <img src="/images/apron1.png" alt="Apron 1">
-        </button>
-        <button onclick="selectApron('apron2')">
-            <img src="/images/apron2.png" alt="Apron 2">
-        </button>
-        <button onclick="selectApron('apron3')">
-            <img src="/images/apron3.png" alt="Apron 3">
-        </button>
-    </div>
+      <header>
+        <img align="left" src="https://cdn.glitch.global/5c7f8dc4-a8ab-446f-94bb-7ca841fad583/logo.png?v=1734880906284" alt="Logo">
+        <nav class="navbar">
+            <a href="homeInfo">
+                <figure>
+                  <img src="https://cdn.glitch.global/5c7f8dc4-a8ab-446f-94bb-7ca841fad583/homeInfo.png?v=1734881107546" alt="Home Info">
+                  <figcaption>Home Page</figcaption>
+              </figure>  
+            </a>
+          
+            <a href="socials">
+              <figure>
+                <img src="https://cdn.glitch.global/5c7f8dc4-a8ab-446f-94bb-7ca841fad583/socials.png?v=1734879760189" alt="Socials">
+                <figcaption>Socials</figcaption>
+              </figure>
+            </a>
+          
+            <a href="recipes">
+              <figure>
+              <img src="https://cdn.glitch.global/5c7f8dc4-a8ab-446f-94bb-7ca841fad583/recipes.png?v=1734879631632" alt="Recipes">
+              <figcaption>Creators' Recipes</figcaption>
+              </figure>
+            </a>
+          
+            <a href="exit" onclick="exitGame()">
+              <figure>
+              <img src="https://cdn.glitch.global/5c7f8dc4-a8ab-446f-94bb-7ca841fad583/exit.png?v=1734882596802" alt="Exit Game">
+              <figcaption>Exit Game</figcaption>
+              </figure>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+    <h1>Pick your Apron!</h1>
+      <div class="apron-selection">
+          <button onclick="selectApron('apron1')">
+              <img src="https://cdn.glitch.global/5c7f8dc4-a8ab-446f-94bb-7ca841fad583/apron1.png?v=1734890126254" alt="Apron 1">
+          </button>
+          <button onclick="selectApron('apron2')">
+              <img src="https://cdn.glitch.global/5c7f8dc4-a8ab-446f-94bb-7ca841fad583/apron2.png?v=1734890108559" alt="Apron 2">
+          </button>
+          <button onclick="selectApron('apron3')">
+              <img src="https://cdn.glitch.global/5c7f8dc4-a8ab-446f-94bb-7ca841fad583/apron3.png?v=1734890142832" alt="Apron 3">
+          </button>
+      </div>
+      </main>
 
 <script defer src="script.js"></script>
 </body>
