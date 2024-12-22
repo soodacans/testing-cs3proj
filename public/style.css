@@ -35,6 +35,13 @@ header img {
     margin-top: 150px;
 }
 
+.Greeting {
+    width: 100px;      
+    height: 100px;      
+    margin: 20px auto;  
+    display: block;
+}
+
 footer {
     background-color: #fe9da6;
 }
