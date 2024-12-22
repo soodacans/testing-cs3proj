@@ -8,17 +8,36 @@ body {
   margin-top: 50px;
 }
 
-#apronSelection, #dessertChoice {
-  display: none;
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 1000;
 }
 
-.button {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
+header img {
+    width: 100px;
+    position: static;
 }
 
-.button img {
-  width: 150px;
-  height: auto;
+/* Greeting section */
+.greeting {
+    margin-top: 150px;
+}
+
+.greeting img {
+    width: 300px; /* Adjust size */
+}
+
+/* Footer */
+footer img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Apron and Dessert Buttons */
+button img {
+    width: 200px; /* Adjust the button image size */
+    margin: 20px;
 }
