@@ -3,4 +3,22 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#apronSelection, #dessertChoice {
+  display: none;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button img {
+  width: 150px;
+  height: auto;
 }

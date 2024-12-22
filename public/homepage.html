@@ -13,9 +13,32 @@
 </head>
   
 <body>
-  <p>
-    test
-  </p>
+    <div id="intro">
+        <h1>Welcome to TITLE!</h1>
+        <div>
+            <button class="button" onclick="startGame()">
+                <img src="start_button_image.png" alt="Start Game">
+            </button>
+        </div>
+    </div>
+  
+      <!-- allows user to select apron color-->
+      <div id="apronSelection">
+        <h2>Select an Apron</h2>
+        <div>
+            <button class="button" onclick="selectApron('Apron 1')">
+                <img src="apron1_image.jpg" alt="Apron 1">
+            </button>
+            <button class="button" onclick="selectApron('Apron 2')">
+                <img src="apron2_image.jpg" alt="Apron 2">
+            </button>
+            <button class="button" onclick="selectApron('Apron 3')">
+                <img src="apron3_image.jpg" alt="Apron 3">
+            </button>
+        </div>
+    </div>
+
+<script defer src="script.js"></script>
 </body>
 
 </html>
