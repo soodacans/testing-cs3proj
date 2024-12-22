@@ -29,7 +29,13 @@ header img {
 }
 
 main {
-    margin-top: 150px; 
+    gap: 20px;
+    margin-top: 200px; 
+}
+
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #fe9da6;
 }
 
 .greeting {
@@ -40,6 +46,12 @@ main {
     margin-top: 150px;
 }
 
+button {
+  border: #fe9da6;
+  color: white;
+  cursor: pointer;
+  margin-top: 50px;
+}
 button img {
     width: 200px; 
     margin: 20px;
