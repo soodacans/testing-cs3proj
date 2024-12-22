@@ -10,6 +10,7 @@ body {
 
 header {
     position: fixed;
+    background-color: #a91010;
     top: 0;
     width: 100%;
     padding: 10px;
