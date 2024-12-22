@@ -7,7 +7,7 @@
   <meta name="author" content="Erin Luz and Sofia Triguero">
   <meta name="description" content="A simple game where the user makes cake and icecream for their customers! This is the homepage.">
   <meta name="keywords" content="game, cafe, food, decorate, dessert, cake, icecream, cute">
-  <title>Greatest </title>
+  <title>Cherry on Top</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
@@ -35,36 +35,36 @@
               <figcaption>Creators' Recipes</figcaption>
               </figure>
             </a>
-            <a href="#" onclick="exitGame()">
-              <img src="https://cdn.glitch.global/5c7f8dc4-a8ab-446f-94bb-7ca841fad583/exit.png?v=1734882596802" alt="Exit Game"></a>
+            <a href="exit" onclick="exitGame()">
+              <figure>
+              <img src="https://cdn.glitch.global/5c7f8dc4-a8ab-446f-94bb-7ca841fad583/exit.png?v=1734882596802" alt="Exit Game">
+              <figcaption>Exit Game</figcaption>
+              </figure>
+            </a>
         </div>
     </header>
 
   
-    <div id="intro">
-        <h1>Welcome to TITLE!</h1>
-        <div>
-            <button class="button" onclick="startGame()">
-                <img src="start_button_image.png" alt="Start Game">
-            </button>
-        </div>
+    <div class="greeting">
+        <figure>
+            <img src="/images/greeting.png" alt="Greeting">
+            <figcaption>Welcome to the Dessert Decorating Game!</figcaption>
+        </figure>
+        <a href="#" onclick="enterGame()">
+            <figure>
+                <img src="/images/enter_button.png" alt="Enter Button">
+                <figcaption>Click to Enter</figcaption>
+            </figure>
+        </a>
     </div>
-  
-      <!-- allows user to select apron color-->
-      <div id="apronSelection">
-        <h2>Select an Apron</h2>
-        <div>
-            <button class="button" onclick="selectApron('Apron 1')">
-                <img src="apron1_image.jpg" alt="Apron 1">
-            </button>
-            <button class="button" onclick="selectApron('Apron 2')">
-                <img src="apron2_image.jpg" alt="Apron 2">
-            </button>
-            <button class="button" onclick="selectApron('Apron 3')">
-                <img src="apron3_image.jpg" alt="Apron 3">
-            </button>
-        </div>
-    </div>
+
+    <!-- Footer Image -->
+    <footer>
+        <figure>
+            <img src="/images/footer_image.png" alt="Footer Image">
+            <figcaption>Thank you for visiting!</figcaption>
+        </figure>
+    </footer>
 
 <script defer src="script.js"></script>
 </body>
