@@ -33,7 +33,7 @@ main {
     margin-top: 200px; 
 }
 
-h1 {
+h1, h2 {
   font-family: Verdana, Geneva, sans-serif;
   color: #fe9da6;
 }
