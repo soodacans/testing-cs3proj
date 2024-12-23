@@ -47,11 +47,20 @@ h1 {
 }
 
 button {
-  border: #fe9da6;
+  background-color: #ffe2e7;
   color: white;
+  border: 2px solid #fe9da6; 
+  border-radius: 5px;
+  padding: 10px 20px;
   cursor: pointer;
-  margin-top: 50px;
 }
+
+button:hover {
+  background-color: #fe9da6;
+  border-color: #ffe2e7;
+  color: #ffffff;
+}
+
 button img {
     width: 200px; 
     margin: 20px;
