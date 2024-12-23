@@ -1,7 +1,13 @@
 //When the user chooses to exit, this will close the window
 function exitGame() {
-  window.close();
+  // Close the window if allowed by the browser
+  if (window.confirm("Are you sure you want to exit?")) {
+    window.close();
+  } else {
+    console.log("Exit canceled.");
+  }
 }
+
 
 //When the user chooses to enter the game, this will bring them to the apron webpage
 function enterGame() {
