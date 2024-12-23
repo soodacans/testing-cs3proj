@@ -1,8 +1,5 @@
 body {
   background-color: #fffef6; 
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   font-family: Verdana, Geneva, sans-serif;
   text-align: center;
   margin-top: 50px;
@@ -38,7 +35,7 @@ h1, h2 {
   color: #fe9da6;
 }
 
-h3, ul{
+h3, h5 {
   font-family: Verdana, Geneva, sans-serif;
   color: #ec3c3c;
 }
