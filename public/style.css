@@ -38,6 +38,15 @@ h1, h2 {
   color: #fe9da6;
 }
 
+h3, ul{
+  font-family: Verdana, Geneva, sans-serif;
+  color: #ec3c3c;
+}
+
+#redH1 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #ec3c3c;
+}
 .greeting {
     display: flex;
     flex-direction: column; 
